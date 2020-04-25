@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae00ae9d-5793-4776-9e62-89defe6ceb51" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1adXHVqzefba1uOAuKb9ptZeV6b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/etc" />
+      <recent name="$PROJECT_DIR$/Generator" />
+      <recent name="$PROJECT_DIR$/Painting" />
+      <recent name="$PROJECT_DIR$/Data" />
+      <recent name="$PROJECT_DIR$/Algorithm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Condition">
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <method v="2" />
+    </configuration>
+    <configuration name="Condition" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Condition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Python.Condition" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae00ae9d-5793-4776-9e62-89defe6ceb51" name="Default Changelist" comment="" />
+      <created>1587066357245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587066357245</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587830770378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587830770378" />
+    <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.807@0.23.1440.807" timestamp="1587504167014" />
+    <state x="248" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587583593706">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="248" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.808@0.23.1440.808" timestamp="1587583593706" />
+    <state width="856" height="174" key="GridCell.Tab.0.bottom" timestamp="1587837652667">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="174" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587835548227" />
+    <state width="856" height="174" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1587837652667" />
+    <state width="856" height="174" key="GridCell.Tab.0.center" timestamp="1587837652667">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="174" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587835548225" />
+    <state width="856" height="174" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1587837652667" />
+    <state width="856" height="174" key="GridCell.Tab.0.left" timestamp="1587837652666">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="174" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587835548224" />
+    <state width="856" height="174" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1587837652666" />
+    <state width="856" height="174" key="GridCell.Tab.0.right" timestamp="1587837652667">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="174" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587835548226" />
+    <state width="856" height="174" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1587837652667" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1587837652633">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587831982139" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1587837652633" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1587837652632">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587831982137" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1587837652632" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1587837652631">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587831982136" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1587837652631" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1587837652632">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587831982138" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1587837652632" />
+    <state x="229" y="65" key="SettingsEditor" timestamp="1587472295554">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="229" y="65" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1587472295554" />
+    <state x="385" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1587472351723">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="385" y="154" width="670" height="676" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1587472351723" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/AVG.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
