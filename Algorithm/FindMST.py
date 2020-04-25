@@ -10,8 +10,6 @@ def findMst():
     matrix = np.array(arr)
     M = len(matrix)
 
-    # print('M=', M)
-
     # Prim's algorithm
     INF = 10.0e777
 
@@ -39,7 +37,6 @@ def findMst():
         used[v] = True
 
         if sel_e[v] != -1:
-            #print(v, ' ', sel_e[v])
             edges.append([v, sel_e[v], matrix[v][sel_e[v]]])
             k += 1
 
@@ -48,5 +45,14 @@ def findMst():
                 min_e[to] = matrix[v][to]
                 sel_e[to] = v
 
-    # print('k=',k)
+    # sorting edges in decreasing order
+    sorted(edges, key=lambda edge: edge[2], reverse=True)
+
     return edges
+
+def mstAsMatrix(edges):
+    matrix = 0 * np.ones((len(edges), len(edges)))
+    for edge in edges:
+        matrix[edge[0]][edge[1]] = edge[2]
+
+    return matrix

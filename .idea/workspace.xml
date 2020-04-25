@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae00ae9d-5793-4776-9e62-89defe6ceb51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/FindMST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/Clasterization.py" afterDir="false" />
+    <list default="true" id="ae00ae9d-5793-4776-9e62-89defe6ceb51" name="Default Changelist" comment="Add part of clasterization algorithm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/FindMST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/FindMST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Clasterization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Clasterization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +104,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587066357245</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add part of clasterization algorithm">
+      <created>1587851633846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587851633846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +124,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add part of clasterization algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add part of clasterization algorithm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587830770378">
@@ -171,6 +184,10 @@
     </state>
     <state x="244" y="43" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587851501033" />
     <state x="229" y="65" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1587472295554" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587851636146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587851636146" />
     <state x="385" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1587472351723">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
