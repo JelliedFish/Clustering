@@ -1,13 +1,10 @@
 import numpy as np
+from Input.Input_by_distnces_matrix import InputD
+from Input.Input_by_points import InputP
+
 
 def findMst():
-    f = open('matrix.txt', 'r')
-    arr = []
-    for line in f:
-        nums = [float(x) for x in line.strip().split(" ")]
-        arr.append(nums)
-
-    matrix = np.array(arr)
+    matrix = InputP()
     M = len(matrix)
 
     # Prim's algorithm
@@ -50,8 +47,9 @@ def findMst():
 
     return edges
 
+
 def mstAsMatrix(edges):
-    matrix = 0 * np.ones((len(edges), len(edges)))
+    matrix = 0 * np.ones((len(edges) + 1, len(edges) + 1))
     for edge in edges:
         matrix[edge[0]][edge[1]] = edge[2]
 

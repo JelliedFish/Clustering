@@ -14,7 +14,7 @@ def _find_Condition(distances):
     arr = []
 
     for var in distances:
-        arr.append(var)
+        arr.append(var[2])
 
     arr.sort()
 
@@ -32,7 +32,11 @@ def _find_Condition(distances):
 
         for i in arr:
             table[int(math.log10(i)) + first_column] += 1
-            interval_end = int(math.log10(_Standard_Deviation_AVG(table))) - first_column
+        interval_end = table[len(table) - 1]
+        AVG = _Standard_Deviation_AVG(table)
+        for i in range(len(table)):
+            if table[i] > AVG:
+                interval_end = i - first_column
 
 
 
@@ -40,13 +44,16 @@ def _find_Condition(distances):
 
         for i in arr:
             table[int(math.log10(i)) - first_column] += 1
-            interval_end = int(math.log10(_Standard_Deviation_AVG(table))) + first_column
+        interval_end = table[len(table) - 1]
+        AVG = _Standard_Deviation_AVG(table)
+        for i in range(len(table)):
+            if table[i] > AVG:
+                interval_end = i + first_column
 
-    condition = math.pow(10, interval_end+1)-math.pow(10, interval_end)
+
+
+    condition = math.pow(10, interval_end) - math.pow(10, interval_end-1)
 
     print("We spent:", datetime.now() - start_time, "time")
 
     return condition
-
-
-print(_find_Condition([0.0001, 0.0001, 0.0001, 0.0001, 0.00012, 0.000123, 0.00012, 3, 10, 100]))

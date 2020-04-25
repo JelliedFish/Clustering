@@ -1,39 +1,29 @@
 import numpy as np
+from Algorithm.DTW import _find_matrix
 import sys
 import math
 import matplotlib.pyplot as plt
 
-curr = []
-arr = []
 
-f = open('../Data/100.txt', 'r')
+def InputP():
 
-for line in f:
-    if len(line) > 2:
-        nums = [float(x) for x in line.strip().split(" ")]
-        curr.append(nums)
-    else:
-        arr.append(curr)
-        curr = []
+    curr = []
+    arr = []
 
-arr.append(curr)
-data = np.array(arr)
+    f = open('../Data/100.txt', 'r')
 
+    for line in f:
+        if len(line) > 2:
+            nums = [float(x) for x in line.strip().split(" ")]
+            curr.append(nums)
+        else:
+            arr.append(curr)
+            curr = []
 
-'''for i in range(M):
-    arr1 = np.array(data[i])
-#print(arr1[0:])
-# x, y = arr1.T
-# plt.scatter(x, y)
+    arr.append(curr)
+    data = np.array(arr)
+    matrix = _find_matrix(data)
+    return matrix
 
 
-
-    #print(arr1[:, 0])
-
-
-#print(arr1[:, 1])
-
-    plt.plot(arr1[:, 0], arr1[:, 1])
-
-plt.show()'''
 

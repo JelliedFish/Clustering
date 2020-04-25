@@ -19,10 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae00ae9d-5793-4776-9e62-89defe6ceb51" name="Default Changelist" comment="Add part of clasterization algorithm">
+    <list default="true" id="ae00ae9d-5793-4776-9e62-89defe6ceb51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Clasterization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Clasterization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Condition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/FindMST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/FindMST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Clasterization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Clasterization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input/Input_by_distnces_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Input/Input_by_distnces_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input/Input_by_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/Input/Input_by_points.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/Сlustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/etc/Сlustering.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +48,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1adXHVqzefba1uOAuKb9ptZeV6b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,23 +60,23 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zenbook\PycharmProjects\Clustering\Client" />
-      <recent name="C:\Users\zenbook\PycharmProjects\Clustering\Algorithm" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algorithm" />
       <recent name="$PROJECT_DIR$/etc" />
       <recent name="$PROJECT_DIR$/Generator" />
       <recent name="$PROJECT_DIR$/Painting" />
       <recent name="$PROJECT_DIR$/Data" />
-      <recent name="$PROJECT_DIR$/Algorithm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zenbook\PycharmProjects\Clustering\Client" />
+      <recent name="C:\Users\zenbook\PycharmProjects\Clustering\Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Condition">
+  <component name="RunManager" selected="Python.Client">
     <configuration name="Unnamed" type="CompoundRunConfigurationType">
       <method v="2" />
     </configuration>
-    <configuration name="Condition" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Condition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client/Client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +99,7 @@
     </configuration>
     <list>
       <item itemvalue="Compound.Unnamed" />
-      <item itemvalue="Python.Condition" />
+      <item itemvalue="Python.Client" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -104,14 +113,6 @@
       <option name="presentableId" value="Default" />
       <updated>1587066357245</updated>
     </task>
-    <task id="LOCAL-00001" summary="Add part of clasterization algorithm">
-      <created>1587851633846</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587851633846</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,73 +125,83 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add part of clasterization algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add part of clasterization algorithm" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587830770378">
+    <state x="184" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587853592905">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587830770378" />
+    <state x="184" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587853592905" />
     <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.807@0.23.1440.807" timestamp="1587504167014" />
     <state x="248" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587583593706">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="248" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.808@0.23.1440.808" timestamp="1587583593706" />
-    <state width="856" height="174" key="GridCell.Tab.0.bottom" timestamp="1587837652667">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1419" height="304" key="GridCell.Tab.0.bottom" timestamp="1587856547413">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587835548227" />
+    <state width="1419" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587856547413" />
     <state width="856" height="174" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1587837652667" />
-    <state width="856" height="174" key="GridCell.Tab.0.center" timestamp="1587837652667">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1419" height="304" key="GridCell.Tab.0.center" timestamp="1587856547409">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587835548225" />
+    <state width="1419" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587856547409" />
     <state width="856" height="174" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1587837652667" />
-    <state width="856" height="174" key="GridCell.Tab.0.left" timestamp="1587837652666">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1419" height="304" key="GridCell.Tab.0.left" timestamp="1587856547408">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587835548224" />
+    <state width="1419" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587856547408" />
     <state width="856" height="174" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1587837652666" />
-    <state width="856" height="174" key="GridCell.Tab.0.right" timestamp="1587837652667">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1419" height="304" key="GridCell.Tab.0.right" timestamp="1587856547410">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587835548226" />
+    <state width="1419" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587856547410" />
     <state width="856" height="174" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1587837652667" />
-    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1587837652633">
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1587856681513">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587831982139" />
-    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1587837652633" />
-    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1587837652632">
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587856547236" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1587856681513" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1587856681512">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587831982137" />
-    <state width="1419" height="304" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1587837652632" />
-    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1587837652631">
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587856547234" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1587856681512" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1587856681511">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587831982136" />
-    <state width="1419" height="304" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1587837652631" />
-    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1587837652632">
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587856547233" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1587856681511" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1587856681513">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587831982138" />
-    <state width="1419" height="304" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1587837652632" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587856547235" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1587856681513" />
+    <state x="144" y="79" key="MergeDialog" timestamp="1587853401272">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1587853401272" />
     <state x="244" y="43" key="SettingsEditor" timestamp="1587851501033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="244" y="43" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587851501033" />
     <state x="229" y="65" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1587472295554" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587851636146">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587853593430">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587851636146" />
-    <state x="385" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1587472351723">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1587853593430" />
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587855688033">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587855688033" />
+    <state x="420" y="85" width="600" height="729" key="find.popup" timestamp="1587853530741">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="420" y="85" width="600" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1587853530741" />
+    <state x="385" y="146" width="670" height="754" key="search.everywhere.popup" timestamp="1587853537258">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="146" width="670" height="754" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587853537258" />
     <state x="385" y="154" width="670" height="676" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1587472351723" />
   </component>
   <component name="XDebuggerManager">
@@ -201,7 +212,24 @@
           <line>19</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/FindMST.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Clasterization.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

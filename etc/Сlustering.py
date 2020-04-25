@@ -14,11 +14,6 @@ stack = deque()
 radius = _find_Condition()
 
 print("DATA: \n")
-#print(matrix[20][21])
-#print(matrix[0][15])
-#print(matrix[0][11])
-#print(matrix[0][1])
-print(matrix)
 
 # print(matrix[200][201])
 # print(matrix[200][206])
