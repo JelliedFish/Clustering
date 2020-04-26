@@ -23,6 +23,8 @@ def Clusterization():
         for edge in edges:
             if edge[2] > condition:
                 matrix[edge[0]][edge[1]] = 0
+                matrix[edge[1]][edge[0]] = 0
+
 
         clusters = []
         curr = []
@@ -61,8 +63,10 @@ def Clusterization():
 
                     print("We spent:\t", datetime.now() - start_time_Clustering)
 
-                    if curr:
-                        clusters.append(curr)
+                if curr:
+                    curr.sort()
+                    clusters.append(curr)
 
-                    curr = []
+                curr = []
+                print(len(clusters))
     return clusters

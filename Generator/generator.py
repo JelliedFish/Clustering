@@ -1,8 +1,10 @@
 import random
 from collections import namedtuple
 import numpy as np
+from Algorithm.DTW import _find_matrix
+from Output.Output import _output
 
-f = open('originTrajectories.txt', 'r')
+f = open('../Data/origin_trajectories.txt', 'r')
 curr = []
 arr = []
 dist = 0.0
@@ -19,10 +21,10 @@ for line in f:
 arr.append(curr)
 data = np.array(arr)
 
-f1 = open('../../Desktop/100.txt', 'w')
+f1 = open('../Data/500.txt', 'w')
 
 for j in range(len(data)):
-    for k in range(0, 20):
+    for k in range(0, 100):
         for point in data[j]:
             noiseX = random.uniform(-0.0001, 0.0001)
             noiseY = random.uniform(-0.0001, 0.0001)
@@ -31,10 +33,17 @@ for j in range(len(data)):
             f1.write(repr(x) + ' ' + repr(y) + '\n')
         f1.write('\n')
 
+g = open('../Data/500.txt', 'r')
 
+for line in g:
+    if len(line) > 2:
+        nums = [float(x) for x in line.strip().split(" ")]
+        curr.append(nums)
+    else:
+        arr.append(curr)
+        curr = []
 
-
-
-
-
-
+arr.append(curr)
+data = np.array(arr)
+matrix = _find_matrix(data)
+_output(matrix, len(matrix))

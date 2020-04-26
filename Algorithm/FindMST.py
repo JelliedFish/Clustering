@@ -4,7 +4,8 @@ from Input.Input_by_points import InputP
 
 
 def findMst():
-    matrix = InputP()
+
+    matrix = InputD()
     M = len(matrix)
 
     # Prim's algorithm
@@ -52,5 +53,7 @@ def mstAsMatrix(edges):
     matrix = 0 * np.ones((len(edges) + 1, len(edges) + 1))
     for edge in edges:
         matrix[edge[0]][edge[1]] = edge[2]
+        matrix[edge[1]][edge[0]] = edge[2]
+
 
     return matrix

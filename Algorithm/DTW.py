@@ -19,8 +19,6 @@ def _find_matrix(data):
     return matrix
 
 
-a = 1
-
 
 def _dtw_distance(ts_a, ts_b):
     # Create cost matrix via broadcasting with large int

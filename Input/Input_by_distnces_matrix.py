@@ -2,7 +2,7 @@ import numpy as np
 
 
 def InputD():
-    f = open('../Data/matrix.txt', 'r')
+    f = open('../Data/matrix500.txt', 'r')
 
     arr = []
     for line in f:

@@ -18,6 +18,13 @@ def _find_Condition(distances):
 
     arr.sort()
 
+    min_index = 0
+    while min_index == 0:
+        min_index += 1
+
+    for i in range(min_index):
+        arr[i] = arr[min_index]
+
     min_ = arr[0]
     max_ = arr[len(arr) - 1]
 
@@ -50,9 +57,7 @@ def _find_Condition(distances):
             if table[i] > AVG:
                 interval_end = i + first_column
 
-
-
-    condition = math.pow(10, interval_end) - math.pow(10, interval_end-1)
+    condition = math.pow(10, interval_end) - math.pow(10, interval_end - 1)
 
     print("We spent:", datetime.now() - start_time, "time")
 
