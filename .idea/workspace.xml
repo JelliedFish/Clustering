@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae00ae9d-5793-4776-9e62-89defe6ceb51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Clasterization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Clasterization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Condition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/FindMedian.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/FindMedian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/FindNoises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/FindNoises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,10 +220,10 @@
     </state>
     <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1587853401272" />
     <state x="144" y="94" key="MergeDialog/0.23.1440.807@0.23.1440.807" timestamp="1587989295891" />
-    <state x="244" y="43" key="SettingsEditor" timestamp="1587851501033">
+    <state x="244" y="43" key="SettingsEditor" timestamp="1587990847757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="244" y="43" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587851501033" />
+    <state x="244" y="43" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587990847757" />
     <state x="229" y="65" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1587472295554" />
     <state x="320" y="193" key="Vcs.Push.Dialog.v2" timestamp="1587988981505">
       <screen x="0" y="23" width="1440" height="807" />
@@ -238,10 +234,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1587853593430" />
-    <state x="511" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587989290426">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="545" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587990740082">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587855688033" />
+    <state x="545" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587990740082" />
     <state x="511" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.807@0.23.1440.807" timestamp="1587989290426" />
     <state x="420" y="85" width="600" height="729" key="find.popup" timestamp="1587853530741">
       <screen x="0" y="0" width="1440" height="900" />
@@ -260,11 +257,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Algorithm/FindNoises.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Algorithm/Condition.py</url>
           <line>65</line>
