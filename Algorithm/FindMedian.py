@@ -16,7 +16,7 @@ def findMedian(matrix):
             if matrix[i][j] < min:
                 min = matrix[i][j]
 
-    count_of_intervals = (math.ceil(max) - math.floor(min))
+    count_of_intervals = (math.ceil(math.log10(max)) - math.floor(math.log10(min)))
 
     if count_of_intervals % 2 == 1:
         median = math.pow(10, math.ceil(count_of_intervals/2))
