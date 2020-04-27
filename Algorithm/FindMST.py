@@ -1,12 +1,14 @@
 import numpy as np
+import Algorithm.FindMedian as fm
 from Input.Input_by_distnces_matrix import InputD
-from Input.Input_by_points import InputP
 
 
 def findMst():
 
     matrix = InputD()
     M = len(matrix)
+
+    median = fm.findMedian(matrix)
 
     # Prim's algorithm
     INF = 10.0e777
