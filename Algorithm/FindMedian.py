@@ -22,12 +22,12 @@ def findMedian(matrix):
                 if matrix[i][j] != 0:
                     min_ = matrix[i][j]
 
-    count_of_intervals = (
-                math.ceil(math.log10(max_)) - math.floor(math.log10(min_)))  # the power of number is really big
+    count_of_intervals = (math.ceil(math.log10(max_)) - math.floor(math.log10(min_)))  # the power of number is really big
+    min_power = math.floor(math.log10(min_))
 
     if count_of_intervals % 2 == 1:
-        median = math.pow(10, math.ceil(count_of_intervals / 2))
+        median = math.pow(10, min_power + math.ceil(count_of_intervals / 2))
     else:
-        median = math.pow(10, (count_of_intervals / 2 + count_of_intervals / 2 + 1) / 2)
+        median = math.pow(10, min_power + (count_of_intervals / 2 + count_of_intervals / 2 + 1) / 2)
 
     return median
