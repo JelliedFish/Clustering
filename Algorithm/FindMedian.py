@@ -6,10 +6,13 @@ def findMedian(matrix):
     max = matrix[0][0]
     min = matrix[0][0]
 
-    for i in matrix:
-        for j in i:
+    M = len(matrix)
+    for i in range(M):
+        for j in range(M):
+
             if matrix[i][j] > max:
                 max = matrix[i][j]
+
             if matrix[i][j] < min:
                 min = matrix[i][j]
 

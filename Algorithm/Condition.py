@@ -13,13 +13,15 @@ def _find_Condition(distances):
 
     arr = []
 
-    for var in distances:
-        arr.append(var[2])
+    M = len(distances)
+    for i in range(M):
+        for var in distances[i]:
+            arr.append(var)
 
     arr.sort()
 
     min_index = 0
-    while min_index == 0:
+    while arr[min_index] == 0:
         min_index += 1
 
     for i in range(min_index):
