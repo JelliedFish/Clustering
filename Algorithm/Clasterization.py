@@ -2,11 +2,14 @@ from Algorithm.Condition import _find_Condition
 import Algorithm.FindMST as mst
 from collections import deque
 from datetime import datetime
+from Algorithm.FindMST import findMst
+from Algorithm.FindMST import getMatrix
 import numpy as np
 
 
 def Clusterization():
     edges = mst.findMst()
+    matrix = getMatrix()
 
     # If no MST, clustering cannot performed
 
@@ -14,17 +17,8 @@ def Clusterization():
         print('Clustering cannot be performed.')
     else:
         # clustering preparation - creating an adjacency matrix
-        matrix = mst.mstAsMatrix(edges)
-        for edge in edges:
-            matrix[edge[0]][edge[1]] = edge[2]
 
         condition = _find_Condition(edges)
-
-        for edge in edges:
-            if edge[2] > condition:
-                matrix[edge[0]][edge[1]] = 0
-                matrix[edge[1]][edge[0]] = 0
-
 
         clusters = []
         curr = []
@@ -48,9 +42,13 @@ def Clusterization():
 
                     for j in range(M):
                         if matrix[cur_trajectory][j] != 0:
-                            new = 1
-                            curr.append(j)
-                            stack.append(j)
+                            if matrix[cur_trajectory][j] < condition:
+                                new = 1
+                                curr.append(j)
+                                stack.append(j)
+
+                                for z in range(M):
+                                    matrix[z][j] = 0
 
                     matrix[cur_trajectory] = 0
 

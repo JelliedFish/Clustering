@@ -2,15 +2,20 @@ import numpy as np
 from Input.Input_by_distnces_matrix import InputD
 from Input.Input_by_points import InputP
 
+matrix = InputD()
+M = len(matrix)
+
+
+def getMatrix():
+    return matrix
+
 
 def findMst():
-
-    matrix = InputD()
-    M = len(matrix)
-
     # Prim's algorithm
     INF = 10.0e777
 
+    matrix = getMatrix()
+    M = len(matrix)
     k = 0
 
     used = np.full(M, False)
@@ -54,6 +59,5 @@ def mstAsMatrix(edges):
     for edge in edges:
         matrix[edge[0]][edge[1]] = edge[2]
         matrix[edge[1]][edge[0]] = edge[2]
-
 
     return matrix
