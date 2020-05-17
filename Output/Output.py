@@ -1,5 +1,5 @@
 def _output(matrix, M):
-    with open('../Data/matrix500.txt', 'w') as g:
+    with open('../Data/matrix60.txt', 'w') as g:
         for i in range(M):
             for j in range(M):
                 g.write(str(matrix[i, j]) + " ")

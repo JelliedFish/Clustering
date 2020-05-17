@@ -2,7 +2,28 @@ import numpy as np
 import math
 
 
-def findMedian(matrix):
+def findMaxIndex(table):
+    max_index = 0
+    M = len(table)
+    max_value = max(table)
+
+    for i in range(M):
+        if table[i] == max_value:
+            max_index = i
+    return max_index
+
+
+def findPopularValue(index, diff):
+    max_value = math.pow(10, index + diff)
+    return max_value
+
+
+def findMaxValue(table):
+    table.sort()
+    return table[len(table) - 1]
+
+
+def findMedian(matrix, footing):
     median = 0.0
 
     max_ = -10.0e777
@@ -22,12 +43,9 @@ def findMedian(matrix):
                 if matrix[i][j] != 0:
                     min_ = matrix[i][j]
 
-    count_of_intervals = (math.ceil(math.log10(max_)) - math.floor(math.log10(min_)))  # the power of number is really big
-    min_power = math.floor(math.log10(min_))
+    count_of_intervals = (math.ceil(math.log(max_, footing)) - math.floor(math.log(min_, footing)))
+    min_power = math.floor(math.log(min_, footing))
 
-    if count_of_intervals % 2 == 1:
-        median = math.pow(10, min_power + math.ceil(count_of_intervals / 2))
-    else:
-        median = math.pow(10, min_power + (count_of_intervals / 2 + count_of_intervals / 2 + 1) / 2)
+    median = math.pow(footing, min_power + (count_of_intervals / 2))
 
     return median

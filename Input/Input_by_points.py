@@ -10,7 +10,7 @@ def InputP():
     curr = []
     arr = []
 
-    f = open('../Data/100.txt', 'r')
+    f = open('../Data/60.txt', 'r')
 
     for line in f:
         if len(line) > 2:

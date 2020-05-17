@@ -4,6 +4,7 @@ import numpy as np
 import math
 
 
+
 def _find_matrix(data):
     M = len(data)
     matrix = sys.maxsize * np.ones((M, M))
@@ -17,7 +18,6 @@ def _find_matrix(data):
         print("We spent:\t", datetime.now() - start_time)
 
     return matrix
-
 
 
 def _dtw_distance(ts_a, ts_b):

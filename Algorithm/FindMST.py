@@ -1,16 +1,18 @@
 import numpy as np
 import Algorithm.FindMedian as fm
 from Input.Input_by_distnces_matrix import InputD
+from Input.Input_by_points import InputP
+from Input.read_trajectories import InputCSV
 
-matrix = InputD()
-M = len(matrix)
+Main_matrix = InputCSV()
+M = len(Main_matrix)
 
 
 def getMatrix():
-    return matrix
+    return InputD()
+
 
 def findMst():
-
     # Prim's algorithm
     INF = 10.0e777
 

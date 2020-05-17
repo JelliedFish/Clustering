@@ -4,10 +4,10 @@ from Algorithm.FindMST import getMatrix
 from Input.Input_by_distnces_matrix import InputD
 
 
-def findNoises():
+def findNoises(footing):
     matrix = getMatrix()
 
-    median = fm.findMedian(matrix)
+    median = fm.findMedian(matrix, footing)
 
     M = len(matrix)
     for i in range(M):
